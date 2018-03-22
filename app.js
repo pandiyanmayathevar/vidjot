@@ -88,5 +88,5 @@ app.use('/users', users);
 const port = process.env.PORT || 5000;
 
 app.listen(process.env.PORT || 5000, () =>{
-  console.log(`Server started on port ${port}`);
+  console.log(`Server successfully on port ${port}`);
 });
